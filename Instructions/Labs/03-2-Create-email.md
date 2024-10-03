@@ -10,7 +10,7 @@ lab:
 ### Lab Overview
 
 #### Scenario
-For this campaign, the marketing team plans to do a large blitz around its newest smart coffee machine. They plan to send a three-email series. The first email will promote Contoso’s Smart Coffee Machine. The second email is intended to encourage customers to fill out a form for more information. The third email is a confirmation email once the form has been submitted.
+For this campaign, the marketing team plans to do a large blitz around its newest smart coffee machine. They plan to send a three-email series. The first email will promote Contoso’s smart coffee machine. The second email is intended to encourage customers to fill out a form for more information. The third email is a confirmation email once the form has been submitted.
 
 ### Lab Overview
 This lab comprises three exercises:
