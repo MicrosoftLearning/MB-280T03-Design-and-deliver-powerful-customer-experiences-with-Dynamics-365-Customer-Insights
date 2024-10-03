@@ -49,7 +49,7 @@ In this task, you will explore the pre-configured Demo environment to familiariz
    - **Insights > Segments, Measures & Predictions:** View segments, configure measures, and use out-of-the-box prediction models (or build your own). (You won't be able to view this section yet.)
    - **Settings:** Administer Roles, Permissions, APIs, and Export Destinations for Customer Segments.
 
-## Exercise - Data Ingestion
+## Exercise 1 - Data Ingestion
 In this lab, you will become familiar with ingesting data from multiple sources. As Project Manager for Contoso Retail, you have already identified that key sources of data include eCommerce Customers, Online Purchases, in-store Point of Sales Purchases, and data from the Contoso Retail Loyalty Card scheme.
 
 ### Task 1 - Ingest Customer Data from eCommerce Platform
