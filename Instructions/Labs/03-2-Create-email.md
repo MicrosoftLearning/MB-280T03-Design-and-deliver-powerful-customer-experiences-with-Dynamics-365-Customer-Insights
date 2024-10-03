@@ -39,8 +39,8 @@ This lab comprises three exercises:
 8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to a shade of gray.
    
 9. Update the logo.
-       - Select the image on the designer.
-       - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
+   - Select the image on the designer.
+   - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
        - Select the **Contoso logo** then click **Select.**
        - Replace the Alt text with *Contoso logo*.
        - Select the **Link to** to drop down, and then select **URL**. Enter *www.microsoft.com.*
