@@ -30,7 +30,7 @@ This lab comprises three exercises:
 5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.* (When you hover over **Email 1** in the upper left corner, you should be able to type into that text box.)
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: “Finally, a coffee machine that gets me."
-   - Make sure that the From name says *Contoso Coffee.*
+   - Select **Contoso Coffee** as the sender (if it is not already). The From name and From email should populate and should be read-only.
 7. In the Toolbox, switch to the **Theme** tab.
    - **Note:** The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
    - Change the **Font family** to: Segoe UI.
