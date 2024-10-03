@@ -69,13 +69,13 @@ Existing owners who did not click a link will get another email advertising the 
   - In Choose a template, select **Follow up with customer.**
   - Subject and Assign to will fill automatically.
   - Change **Due after** to *2 weeks.*
-10. In the corresponding **No** path (below the Email Link Clicked If/then branch), click the **plus icon (+).**
+12. In the corresponding **No** path (below the Email Link Clicked If/then branch), click the **plus icon (+).**
   - Select **Send an email**.
   - In **Select email,** choose **Smart Machine Campaign Reminder.**
-11. Return to the journey designer. Locate the **Attribute** tile. Now we will configure the **No** branch. For customers that do not already own an Airpot, we will send them the third email.
+13. Return to the journey designer. Locate the **Attribute** tile. Now we will configure the **No** branch. For customers that do not already own an Airpot, we will send them the third email.
   - Select the **+** sign under **Other.**
   - Select **Email.**
   - Under Select Email, select **Smart Machine Campaign Reminder.**
-12. **Save** the journey.
-13. Review the journey. Make any final changes.
-14. Click **Publish**. Wait for the journey to publish.
+14. **Save** the journey.
+15. Review the journey. Make any final changes.
+16. Click **Publish**. Wait for the journey to publish.
