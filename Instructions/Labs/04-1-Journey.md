@@ -19,9 +19,9 @@ lab:
 
 4.  Click **+ New journey** in the command bar.
   - If you are prompted to use Copilot to create your journey, select **Skip and create from blank.**
-  - In **Name the journey**, enter *Airpot Cross-Sell Journey.*
-  - In **Choose journey type**, select Trigger-based.
-  - In **Choose a trigger**, search for and select **Email Link Clicked.**
+  - In **Name the journey**, enter *Airpot Smart Machine Launch Campaign.*
+  - In **Choose journey type**, select **Trigger-based.**
+  - In **Choose a trigger**, search for and select **Email Opened.**
   - Click **Create**.
 
 5. From the Journey settings on the right, in the **Entry** section, do the following:
