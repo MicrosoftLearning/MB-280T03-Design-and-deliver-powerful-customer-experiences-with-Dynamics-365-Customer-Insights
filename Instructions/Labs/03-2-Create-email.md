@@ -29,7 +29,7 @@ This lab comprises three exercises:
 4. From the template gallery, select **1-2 column** under Layouts, then click the **Select** button.
 5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.*
 6. Select the **From Name/Subject box** in the designer to display the Email header details on the right.
-   - Type the following in the Subject: “Finally, a Coffee Machine that gets me."
+   - Type the following in the Subject: “Finally, a coffee machine that gets me."
    - Make sure that the From name says *Contoso Coffee.*
 7. In the Toolbox, switch to the **Theme** tab.
    - **Note:** The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
@@ -55,7 +55,7 @@ This lab comprises three exercises:
      - Add a comma and a space after {{Firstname}}.
      - Change “A short headline goes here” to: “We’ve got you covered.”
      - Highlight the text, make it bold and change the font size to *26.*
-   - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal Barista.”
+   - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
    - Highlight the text and change the font size to *18.*
 12. Select the two-column section below the text.
    - Navigate to the section. Change the Section background color to white.
