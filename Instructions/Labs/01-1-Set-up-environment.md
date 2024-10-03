@@ -14,7 +14,7 @@ If you are being provided with a tenant as a part of an instructor-led training 
 
 ## Exercise 1: Get a Dynamics 365 Customer Insights trial
 ### Step 1: Dynamics 365 Customer Insights trial
-1. In a new browser tab, navigate to https://dynamics.microsoft.com/dynamics-365-free-trial. Select **Try for free.**
+1. In a new browser tab, navigate to https://dynamics.microsoft.com/dynamics-365-free-trial. In the middle of the screen, you will see two buttons: one to see plans and pricing, the other to try for free. Select **Try for free.**
 2. Navigate to the Dynamics 365 Customer Insights box and select **Try for free**. Enter the provided M365 admin credential and select **Start your free trial.** (If prompted, leave region set to United States and enter 0123456789 for Phone number.) Select **Submit.**
 3. Select **Launch Trial.**
 4. On the welcome screen, select **Start Customer Insights - Data.** The Customer Insights - Data model-driven app will launch in a new tab. You now have both a Customer Insights - Journeys and a Customer Insights - Data trial environment.
