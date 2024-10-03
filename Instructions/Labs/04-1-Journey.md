@@ -25,7 +25,7 @@ Existing owners who did not click a link will get another email advertising the 
 ### Task 1: Create a journey
 1.  Log into Dynamics 365 Customer Insights - Journeys.
 
-2.  Navigate to the **Real-time marketing** work area.
+2.  Navigate to the **Real-time journeys** work area.
 
 3.  Under **Engagement**, select **Journeys.**
 
