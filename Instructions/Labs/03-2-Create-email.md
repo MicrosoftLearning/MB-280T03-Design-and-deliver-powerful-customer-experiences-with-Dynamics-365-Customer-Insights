@@ -37,82 +37,77 @@ This lab comprises three exercises:
    - Change the **body text color** to: #404040.
    - Change the **email background** to: #CCCCCC.
 8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to a shade of gray.
+   
 9. Update the logo.
-   - Select the image on the designer.
-   - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
-   - Select the **Contoso logo** then click **Select.**
-   - Replace the Alt text with *Contoso logo*.
-   - Select the **Link to** to drop down, and then select **URL**. Enter *www.microsoft.com.*
-   - In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* by *50px*. (**Note:** You may have to click the unlink icon between width and height to set both.)
+       - Select the image on the designer.
+       - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
+       - Select the **Contoso logo** then click **Select.**
+       - Replace the Alt text with *Contoso logo*.
+       - Select the **Link to** to drop down, and then select **URL**. Enter *www.microsoft.com.*
+       - In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* by *50px*. (**Note:** You may have to click the unlink icon between width and height to set both.)
+     
 10. Next, we will update the second image in the email:
-   - Select the image in the section below the logo.
-   - Select **Replace image** and **Browse library.**
-   - Select the **hero-page.jpg** image. Click **Select.**
+       - Select the image in the section below the logo.
+       - Select **Replace image** and **Browse library.**
+       - Select the **hero-page.jpg** image. Click **Select.**
+
 11. Select the text section below the logo:
-   - Navigate to the section.
-   - Update the header text. (Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**)
-     - Add a comma and a space after {{Firstname}}.
-     - Change “A short headline goes here” to: “We’ve got your coffee breaks covered.”
-     - Highlight the text, make it bold and change the font size to *26.*
-   - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
-   - Highlight the text and change the font size to *18.*
+       - Navigate to the section.
+       - Update the header text. (Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**)
+       - Add a comma and a space after {{Firstname}}.
+       - Change “A short headline goes here” to: “We’ve got your coffee breaks covered.”
+       - Highlight the text, make it bold and change the font size to *26.*
+       - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
+       - Highlight the text and change the font size to *18.*
+
 12. Select the two-column section below the text.
-   - Navigate to the section. Change the Section background color to a shade of blue.
-   - In the left column, make the following updates:
-     - Select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
-     - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
-     - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
-     - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
-   - In the right column under the sub header, make the following updates:
-     - Select the Image placeholder.
-     - Navigate to the image library and select the **barista.jpg** image.
-     - Replace the Alt text with *Barista.*
-     - In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
-     - In the Size and alignment section, uncheck Auto width. Change the size to *150px* by *130px.* (**Note:** Keep link selected to ensure the image maintains proportions.)
-13. Select the section with the social icons.
-   - Navigate to the section. Change the Section background color to a shade of gray.
+    - Navigate to the section. Change the Section background color to a shade of blue.
+    - In the left column, make the following updates:
+             - Select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
+             - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
+         - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
+         - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
+    - In the right column under the sub header, make the following updates:
+         - Select the Image placeholder.
+         - Navigate to the image library and select the **barista.jpg** image.
+         - Replace the Alt text with *Barista.*
+         - In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
+         - In the Size and alignment section, uncheck Auto width. Change the size to *150px* by *130px.* (**Note:** Keep link selected to ensure the image maintains proportions.)
+     
+13.  Select the section with the social icons. Change the Section background color to a shade of gray.
 14. Select the section with the copyright information. Update the copyright from *2022 Company Inc.* to *2024 Contoso Coffee.*
 15. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email? 
 16. On the toolbar, click **Save.**
 17. Select **Preview and test.**
-   - Click **Edit sample data**. In the Preview personalization pane, enter the first name of a contact you created. Select the contact to watch the personalization change.
-   - Preview the email on all screen sizes.
-18. Click **Ready to send**. Click the notification bar to view the errors. 2 errors should be thrown:
-   - Compliance profile
-   - Purpose
-19. Let's fix these errors and get the email ready for sending.
-   - Return to the **Design** tab.
-   - Select the **Settings** section.
-   - Expand **Compliance.**
-   - Select the **Contoso Americas** compliance profile.
-   - Make sure **Commercial** is selected for Purpose.
+       - Click **Edit sample data**. In the Preview personalization pane, enter the first name of a contact you created. Select the contact to watch the personalization change.
+       - Preview the email on all screen sizes.
 20. Click the **arrow** next to Check content. Run the **Accessibility checker** to see if there are any other issues within the email. Mitigate any other issues as you see fit.
 21. On the toolbar, click **Ready to send.**
 
 ### Task 2: Create an email by copying an email
+
 1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
 2. Navigate to **Emails** under the Channels group.
 3. Open the email you created in Task 1.
 4. In the command bar, click the **drop-down arrow** next to Save. Choose **Save as.**
-5. In the Quick Create menu on the right, name the email *Cross Sell Campaign Email 2.*
-6. In the Subject field, enter “Are we piquing your interest?”
-7. Click **Save and Close**. A pop-up will appear that says *Your changes were saved*. Click **View record** to open the new email. (You can also navigate back to **Emails** and open **Cross Sell Campaign Email 2.**)
+5. In the Quick Create menu on the right, name the email *Upgrade Airpot Email.*
+6. In the Subject field, enter “Is it time for an upgrade?”
+7. Click **Save and Close**. A pop-up will appear that says *Your changes were saved*. Click **View record** to open the new email. (You can also navigate back to **Emails** and open **Upgrade Airpot Email.**)
 8. On the designer, change the header text to: “{{Firstname}}, coffee your way, at your fingertips.”
-9. Change the copy below the header to: “Your coffee order is as unique as you are. How are you fixing your cup?”
+9. Change the copy below the header to: “Your coffee order is as unique as you are. Time to try our new Airpot Smart Coffee Machine.”
 10. Select the next two-column section. Change the Layout from 2 to 1:2.
     - In the left column, make the following updates:
       - Remove the text.
       - Remove the button.
     - In the right column, make the following updates:
       - Remove the image.
-      - Remove BUSINESS INTERRUPTION.
       - Change the text to: “Half-caf Americano, or double shot latte? However you choose to fuel your day, Contoso Coffee has you covered.” ‎
       - Change the font size to 16 and italicize.
 11. Update the button.
     - Select the button.
     - Change Link to to URL.
-    - Enter [https://dynamics.microsoft.com/].
-    - Change the Button text to *EXPLORE THE NEW AIRPOT XL.*
+    - Enter https://dynamics.microsoft.com/.
+    - Change the Button text to *EXPLORE THE NEW SMART MACHINE.*
     - Expand **Size and alignment.** Switch Fit to text to **Off.** Change the width to *200px.*
 12. On the toolbar, click **Save.**
 13. Preview the email.
@@ -124,13 +119,11 @@ This lab comprises three exercises:
 2. Navigate to **Emails** under the Channels group.
 3. Open the email you created in Task 2.
 4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as.**
-5. In the Quick Create menu on the right, name the email *Cross Sell Campaign Email 3.*
-6. In the Subject field, enter “Thanks for contacting us!”
+5. In the Quick Create menu on the right, name the email *Smart Machine Campaign Reminder.*
+6. In the Subject field, enter “Have you seen the news?”
 7. Click **Save and Close.** A pop-up will appear at the upper right that says Your changes were saved. Click **View record** to open the new email. (You can also navigate to the Emails list and open Cross Sell Campaign Email 3.)
-8. Change the header text to: “Interested in the new Airpot XL?”
-9. Change the copy below the header to:
-   - We are excited to review your inquiry about our world-class coffee machines.
-   - A salesperson will be contacting you shortly.
+8. Change the header text to: “The new Airpot Smart Machine: available this fall!”
+9. Change the copy below the header to: "Our new Airpot Smart Machine is a new way to make coffee. Learn more about the first-of-its-kind coffee machine today."
 10. Remove the two-column section.
 11. On the toolbar, click **Save.**
 12. Preview the email.
