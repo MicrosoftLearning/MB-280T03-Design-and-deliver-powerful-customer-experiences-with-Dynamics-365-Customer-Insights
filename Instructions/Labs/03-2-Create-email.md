@@ -62,11 +62,10 @@ This lab comprises three exercises:
 
 12. Select the two-column section below the text.
     - Navigate to the section. Change the Section background color to a shade of blue.
-    - In the left column, make the following updates:
-             - Select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
-             - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
-         - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
-         - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
+    - In the left column, select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
+    - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
+    - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
+    - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
     - In the right column under the sub header, make the following updates:
          - Select the Image placeholder.
          - Navigate to the image library and select the **barista.jpg** image.
