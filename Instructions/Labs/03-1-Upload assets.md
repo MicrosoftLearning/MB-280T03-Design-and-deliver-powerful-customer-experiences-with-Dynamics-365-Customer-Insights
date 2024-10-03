@@ -12,7 +12,7 @@ lab:
 #### Scenario
 Contoso Coffee sells industrial-grade and personal coffee marchines to both coffee business owners who use Contoso coffee machines in their individual shops; businesses who have Contoso coffee machines in their corporate offices; and individual customers who use Contoso Coffee machines in their homes. This year, the company is releasing a brand new product called the Airpot XL Smart Coffee Machine. They plan to market this new product to both business and individuals.
 
-The marketing team decides to put together a cross-sell campaign to encourage current customers to consider upgrading to their new intelligent coffee machine. They plan to send a series of emails with a call to action for the customer to fill out a marketing form that will result in a phone call from a sales rep. They plan to run this campaign for 2 months.
+The marketing team decides to put together a cross-sell campaign to encourage current customers to consider upgrading to their new intelligent coffee machine. They plan to send a series of emails with a call to action for the customer to click a link that will trigger a phone call from a sales rep. They plan to run this campaign for 2 months.
 
 
 For this campaign, the Marketing Coordinator will need to:
