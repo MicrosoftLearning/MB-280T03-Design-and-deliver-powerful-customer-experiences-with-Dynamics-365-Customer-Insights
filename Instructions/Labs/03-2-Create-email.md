@@ -114,14 +114,14 @@ This lab comprises three exercises:
 14. Click **Check content**. Correct any errors if needed.
 15. On the toolbar, click **Ready to send.**
 
-### Exercise 3: Create an email by copying an email
+### Task 3: Create an email by copying an email
 1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
 2. Navigate to **Emails** under the Channels group.
 3. Open the email you created in Task 2.
 4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as.**
 5. In the Quick Create menu on the right, name the email *Smart Machine Campaign Reminder.*
 6. In the Subject field, enter “Have you seen the news?”
-7. Click **Save and Close.** A pop-up will appear at the upper right that says Your changes were saved. Click **View record** to open the new email. (You can also navigate to the Emails list and open Cross Sell Campaign Email 3.)
+7. Click **Save and Close.** A pop-up will appear at the upper right that says Your changes were saved. Click **View record** to open the new email. (You can also navigate to the Emails list and open **Smart Machine Campaign Reminder**.)
 8. Change the header text to: “The new Airpot Smart Machine: available this fall!”
 9. Change the copy below the header to: "Our new Airpot Smart Machine is a new way to make coffee. Learn more about the first-of-its-kind coffee machine today."
 10. Remove the two-column section.
