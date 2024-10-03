@@ -27,8 +27,8 @@ This lab comprises three exercises:
 2. Navigate to **Emails** under the Channels group.
 3. Click **+New** to create a new email.
 4. From the template gallery, select **1-2 column** under Layouts, then click the **Select** button.
-5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.*
-6. Select the **From Name/Subject box** in the designer to display the Email header details on the right.
+5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.* (When you hover over **Email 1** in the upper left corner, you should be able to type into that text box.)
+6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: “Finally, a coffee machine that gets me."
    - Make sure that the From name says *Contoso Coffee.*
 7. In the Toolbox, switch to the **Theme** tab.
