@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab 3.3: Create a journey'
+    title: 'Lab 4.1: Create a trigger-based journey'
 ---
 
-# Learning Path 3: Manage customers and assets in Dynamics 365 Customer Insights - Journeys
+# Learning Path 4: Create journeys
 
-## Practice Lab 3.3: Create a journey 
+## Practice Lab 4.1: Create a trigger-based journey 
 
 ### Lab Overview
 
