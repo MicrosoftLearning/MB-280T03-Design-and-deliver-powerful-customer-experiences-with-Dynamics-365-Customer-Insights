@@ -33,11 +33,12 @@ Existing owners who did not click a link will get another email advertising the 
   - If you are prompted to use Copilot to create your journey, select **Skip and create from blank.**
   - In **Name the journey**, enter *Airpot Smart Machine Launch Campaign.*
   - In **Choose journey type**, select **Trigger-based.**
-  - In **Choose a trigger**, search for and select **Email Opened.**
+  - In **Choose a trigger**, search for and select **Email Link Clicked.**
+  - In **Choose an email,** search for and select your **Smart Machine Campaign Email.**
   - Click **Create**.
 
 ### Task 2: Add elements to the journey
-1. From the Journey settings on the right, in the **Entry** section, do the following:
+1. Navigate to the **journey settings** section, which will be expanded on the right side of the screen. In the **Entry** section, do the following:
   - Leave **Exclude by segments** blank.
   - In the **Repeat** section, select Immediately.
   - In the **Time zone** section, choose your time zone.
