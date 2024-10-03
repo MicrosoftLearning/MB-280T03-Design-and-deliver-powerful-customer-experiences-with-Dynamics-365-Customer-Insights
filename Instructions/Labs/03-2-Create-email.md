@@ -31,50 +31,47 @@ This lab comprises three exercises:
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: “Finally, a coffee machine that gets me."
    - Select **Contoso Coffee** as the sender (if it is not already). The From name and From email should populate and should be read-only.
-7. In the Toolbox, switch to the **Theme** tab.
+7. Locate the **Toolbox** menu on the far right, which will show up as a series of icons. Hovering over the icons will show you the name of each tab. Select the **Theme** tab, which looks like a paintbrush.
    - **Note:** The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
    - Change the **Font family** to: Segoe UI.
    - Change the **body text color** to: #404040.
-   - Change the **email background color** to: #CCCCCC.
-8. Select the first section. Change the Section background color to **white.**
+   - Change the **email background** to: #CCCCCC.
+8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to a shade of gray.
 9. Update the logo.
    - Select the image on the designer.
    - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
    - Select the **Contoso logo** then click **Select.**
-   - Replace the Alt text with *Contoso icon.*
-   - On the right, click the **Link** to drop down then select **URL** then enter *www.microsoft.com.*
-   - In the Size and alignment section, if Auto width is checked, uncheck it. Enter *150px* by *50px*. (**Note:** You may have to click the unlink icon between width and height to set both.)
-10. Update the image.
+   - Replace the Alt text with *Contoso logo*.
+   - Select the **Link to** to drop down, and then select **URL**. Enter *www.microsoft.com.*
+   - In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* by *50px*. (**Note:** You may have to click the unlink icon between width and height to set both.)
+10. Next, we will update the second image in the email:
    - Select the image in the section below the logo.
    - Select **Replace image** and **Browse library.**
-   - Select the **Hero page image.**
-11. Select the text section below the logo.
+   - Select the **hero-page.jpg** image. Click **Select.**
+11. Select the text section below the logo:
    - Navigate to the section.
-   - Change the Section background color to white.
-   - Update the header text. (Put your cursor at the start of the header text then click the **Personalization icon** in the toolbar. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**)
+   - Update the header text. (Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**)
      - Add a comma and a space after {{Firstname}}.
-     - Change “A short headline goes here” to: “We’ve got you covered.”
+     - Change “A short headline goes here” to: “We’ve got your coffee breaks covered.”
      - Highlight the text, make it bold and change the font size to *26.*
    - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
    - Highlight the text and change the font size to *18.*
 12. Select the two-column section below the text.
-   - Navigate to the section. Change the Section background color to white.
+   - Navigate to the section. Change the Section background color to a shade of blue.
    - In the left column, make the following updates:
-     - Select the Image placeholder. Navigate to the image library and select the machine image.
-     - Replace the Alt text with "Smart Coffee Machine".
-     - In Link to field, select **URL.** Enter [https://dynamics.microsoft.com/].
-     - In the Size and alignment section, uncheck Auto width. Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
+     - Select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
+     - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
+     - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
+     - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
    - In the right column under the sub header, make the following updates:
      - Select the Image placeholder.
-     - Navigate to the image library and select the **Barista** image.
+     - Navigate to the image library and select the **barista.jpg** image.
      - Replace the Alt text with *Barista.*
      - In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
      - In the Size and alignment section, uncheck Auto width. Change the size to *150px* by *130px.* (**Note:** Keep link selected to ensure the image maintains proportions.)
 13. Select the section with the social icons.
-   - Navigate to the section. Change the Section background color to white.
-14. Select the section with the copyright information.
-   - Navigate to the section. Change the Section background color to white.
-   - Update the copyright from *Company Inc.* to *Contoso Coffee.*
+   - Navigate to the section. Change the Section background color to a shade of gray.
+14. Select the section with the copyright information. Update the copyright from *2022 Company Inc.* to *2024 Contoso Coffee.*
 15. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email? 
 16. On the toolbar, click **Save.**
 17. Select **Preview and test.**
