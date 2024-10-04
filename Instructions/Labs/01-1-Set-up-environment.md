@@ -19,4 +19,4 @@ If you are being provided with a tenant as a part of an instructor-led training 
 3. Select **Launch Trial.**
 4. On the welcome screen, select **Start Customer Insights - Data.** The Customer Insights - Data model-driven app will launch in a new tab. You now have both a Customer Insights - Journeys and a Customer Insights - Data trial environment.
 5. Enter *United States* for Country/region. Select **Continue.**
-6. Select **Start trial** from the notification banner. Wait for the trial to set up - it may take a few minutes. (If you recieve a pop-up that says *Getting started*, select **Not now.**)
+6. Select **Start trial** from the notification banner. Wait for the trial to set up - it may take a few minutes. (If you get a pop-up that says *Getting started*, select **Not now.**)
