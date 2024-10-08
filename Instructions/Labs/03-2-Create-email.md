@@ -23,10 +23,10 @@ This lab comprises three exercises:
 
 ## Exercise 1: Create a marketing email
 ### Task 1: Create an email from a template
-1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing area.**
+1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time journeys area.**
 2. Navigate to **Emails** under the Channels group.
 3. Click **+New** to create a new email.
-4. From the template gallery, select **1-2 column** under Layouts, then click the **Select** button.
+4. From the template gallery, scroll down to the **Layouts** section. sSelect **1-2 column** and **Select.**
 5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.* (When you hover over **Email 1** in the upper left corner, you should be able to type into that text box.)
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: “Finally, a coffee machine that gets me."
@@ -37,54 +37,54 @@ This lab comprises three exercises:
    - Change the **body text color** to: #404040.
    - Change the **email background** to: #CCCCCC.
 8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to a shade of gray.
-   
-9. Update the logo.
-   - Select the image on the designer.
-   - On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
-       - Select the **Contoso logo** then click **Select.**
-       - Replace the Alt text with *Contoso logo*.
-       - Select the **Link to** to drop down, and then select **URL**. Enter *www.microsoft.com.*
-       - In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* by *50px*. (**Note:** You may have to click the unlink icon between width and height to set both.)
-     
-10. Next, we will update the second image in the email:
-       - Select the image in the section below the logo.
-       - Select **Replace image** and **Browse library.**
-       - Select the **hero-page.jpg** image. Click **Select.**
 
-11. Select the text section below the logo:
-       - Navigate to the section.
-       - Update the header text. (Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**)
-       - Add a comma and a space after {{Firstname}}.
-       - Change “A short headline goes here” to: “We’ve got your coffee breaks covered.”
-       - Highlight the text, make it bold and change the font size to *26.*
-       - Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
-       - Highlight the text and change the font size to *18.*
+## Task 2: Update images
+In this task, we will update the logo.
 
-12. Select the two-column section below the text.
-    - Navigate to the section. Change the Section background color to a shade of blue.
-    - In the left column, select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
-    - Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
-    - In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
-    - In the Size and alignment section, toggle Auto width **off.** Change the size to *150px* by *187px*. (**Note:** Keep link selected to ensure the image maintains proportions.)
-    - In the right column under the sub header, make the following updates:
-         - Select the Image placeholder.
-         - Navigate to the image library and select the **barista.jpg** image.
-         - Replace the Alt text with *Barista.*
-         - In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
-         - In the Size and alignment section, uncheck Auto width. Change the size to *150px* by *130px.* (**Note:** Keep link selected to ensure the image maintains proportions.)
-     
-13.  Select the section with the social icons. Change the Section background color to a shade of gray.
-14. Select the section with the copyright information. Update the copyright from *2022 Company Inc.* to *2024 Contoso Coffee.*
-15. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email? 
+1. Select the image in the first section on the designer.
+2. On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
+3. Select the **Contoso logo** then click **Select.**
+4. Replace the Alt text with *Contoso logo*.
+5. Select the **Link to** to drop down, and then select **URL**. Enter *www.contoso.com.*
+6. In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* for the width. The other dimension will automatically update.
+7. Next, we will update the second image in the email. Select the image in the section below the logo.
+8. Select **Replace image** and **Browse library.**
+9. Select the **hero-page.jpg** image. Click **Select.**
+
+## Task 3: Update a headline using personalization
+In this task, we will update a headline to reflect the recipient contact's first name.
+1. Navigate to the text section below the logo and select it.
+2. Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**
+3. Add a comma and a space after {{Firstname}}.
+4. Change the placeholder text to: “We’ve got your coffee breaks covered.”
+5. Highlight the text, make it bold and change the font size to *26.*
+6. Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
+7. Highlight the text and change the font size to *18.*
+
+## Task 4: Design the rest of the email
+1. Select the two-column section below the text. Change the Section background color to a shade of blue.
+2. In the left column, select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
+3. Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
+4. In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
+5. In the Size and alignment section, toggle Auto width **off.** Change the width to *150px* and let the other dimension set automatically.
+6. In the right column under the sub header, select the Image placeholder and click **Replace image.** Select **Browse library** and select **barista.jpg**. Click **Select.**
+7. Replace the Alt text with *Barista.*
+8. In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
+9.  Select the section with the social icons. Change the Section background color to a shade of gray.
+10. Select the section with the copyright information. Update the copyright from *2022 Company Inc.* to *2024 Contoso Coffee.*
+11. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email?
+
+## Task 5: Save and test the email
 16. On the toolbar, click **Save.**
 17. Select **Preview and test.**
-       - Click **Edit sample data**. In the Preview personalization pane, enter the first name of a contact you created. Select the contact to watch the personalization change.
-       - Preview the email on all screen sizes.
+18. Click **Edit sample data**. In the Preview personalization pane, enter the first name of a contact you created. Select the contact to watch the personalization change.
+19. Return to the **Preview and test** screen. Preview the email on all screen sizes.
 20. Click the **arrow** next to Check content. Run the **Accessibility checker** to see if there are any other issues within the email. Mitigate any other issues as you see fit.
 21. On the toolbar, click **Ready to send.**
 
-### Task 2: Create an email by copying an email
+### Exercise 2: Create an email by copying an email
 
+## Task 1: Create an email to existing customers
 1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
 2. Navigate to **Emails** under the Channels group.
 3. Open the email you created in Task 1.
@@ -113,7 +113,7 @@ This lab comprises three exercises:
 14. Click **Check content**. Correct any errors if needed.
 15. On the toolbar, click **Ready to send.**
 
-### Task 3: Create an email by copying an email
+### Task 2: Create a follow-up campaign email
 1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
 2. Navigate to **Emails** under the Channels group.
 3. Open the email you created in Task 2.
