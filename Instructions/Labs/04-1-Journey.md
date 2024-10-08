@@ -38,7 +38,7 @@ Existing owners who did not click a link will get another email advertising the 
 2. Leave **Exclude by segments** blank.
 3. In the **Repeat** section, select Immediately.
 4. In the **Time zone** section, choose your time zone.
-5. In **Start,** select today, 15 minutes from now.
+5. In **Start,** select today. Set the time to 15 minutes from now. (You can type directly into this field.)
 6. In **End,** select tomorrow.
 
 ### Task 3: Configure the journey goal
@@ -48,7 +48,7 @@ Existing owners who did not click a link will get another email advertising the 
 4.  In *The number of people needed,* enter *50.* Leave percent selected.
 
 ### Task 4: Add an attribute branch
-1. In the journey designer, click the **plus icon (+)** under the Contact Created tile.
+1. In the journey designer, click the **plus icon (+)** under the **Email link clicked** tile.
 2. Select **Attribute branch** from the *Conditions* section.
 3. In **Display name** on the right, enter *Already owns airpot*
 4. Select **Branch 1**. In Display name, enter *Owns airpot.*
