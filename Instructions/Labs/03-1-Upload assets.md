@@ -51,7 +51,7 @@ These files will now be available for users to incorporate into their marketing 
 2. From the left navigation, select **Contacts** under the Audience group.
 3. Open the contact **Alva Tharaldsen.**
    - Under Account Name, select **Bellows College**. You will then navigate to the Bellows College account record.
-   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Select all the Contacts in the list by checking the **check boxes** next to their names.
+   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Click on the vertical ellipses at the top of the subgrid, click **Select,** and use the check boxes to select all the contacts in the list at once.
    - At the top of the Contacts subgrid, select the **vertical ellipses.** Then select **Edit.**
    - On the Details tab, locate the Personal Notes field. Enter "Airpot owner" in the field. Select **Save.**
    - Select one of the contacts other than Alva. Navigate to the **Details** tab. Verify “Airpot owner” appears in the Personal Notes field.
@@ -85,7 +85,7 @@ These files will now be available for users to incorporate into their marketing 
 
 ### Task 3: Create a task template
 1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials.
-2. Navigate to **Task templates** under the **Assets** group.
+2. Under the **Assets** group, navigate to **Task templates**.
 3. Select **+New**.
    - Name: Follow up with customer
    - Subject: Upgrade from Airpot to Airpot XL Smart Coffee Machine
@@ -96,14 +96,12 @@ These files will now be available for users to incorporate into their marketing 
 
 ### Exercise 4: Configure the default brand profile
 1. Log into Dynamics 365 Customer Insights - Journeys. Change areas to the **Settings** area.
-2. Navigate to **Brand profiles** under the Customer engagement group.
-3. Select the **+ New** button.
-4. Enter *Contoso* in the Name field and **Save** the row.
-5. Set Default to **Yes.**
-7. Navigate to the **Senders** tab. You should see the Default sender record in the sub-grid. 
-8. Select the Social links tab. Fill in the following:
+2. In the **Customer engagement** group, navigate to **Brand profiles**.
+3. Select the **Default brand profile.**
+4. Navigate to the **Senders** tab. You should see the Default sender record in the sub-grid. 
+5. Select the Social links tab. Fill in the following:
     - LinkedIn URL: https://www.linkedin.com/company/contoso12345/about/
     - Twitter URL: https://twitter.com/ContosoInc
     - Facebook URL: https://www.facebook.com/Contoso-102137176602590/
-9. Select Save & Close.
+6. Select **Save & Close.**
 
