@@ -95,7 +95,7 @@ In this exercise, we will set up Search and Filter criteria to enable Customer I
 1. In Customer Insights, select **Customers** from the left navigation menu.
 2. Select **Search & filter index.**
 3. Some customer search-specific fields are already added by default and you can add more by selecting **+ Add** from the toolbar.
-4. Make sure **CustomerId, FirstName, LastName, FullName, DateOfBirth, EMail, PostCode, Headshot, ContactId (eCommerce_Contacts),** and **LoyaltyId** are selected. Deselect any other fields that are checked. Select **Apply.**
+4. Make sure **CustomerId, FirstName, LastName, FullName, DateOfBirth, EMail, PostCode, ContactId (eCommerce_Contacts),** and **LoyaltyId** are selected. Deselect any other fields that are checked. Select **Apply.**
 5. Select **Save.**
 
 ### Task 2 - Search for a Customer Record
