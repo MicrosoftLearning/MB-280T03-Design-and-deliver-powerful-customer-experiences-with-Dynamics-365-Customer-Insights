@@ -22,6 +22,8 @@ For this campaign, the Marketing Coordinator will need to:
 
 To get started, the Marketing Coordinator needs to upload the digital assets that will be used in the campaign. They also need to upload any new sales contacts the company has acquired recently and update details for existing contacts and accounts.
 
+This lab will take approximately **15** minutes to complete. 
+
 ## Lab Overview
 This lab is comprised of four tasks:
 1. In the first task, you will upload image files to be used in marketing emails. These files will be uploaded to the real-time asset library.
