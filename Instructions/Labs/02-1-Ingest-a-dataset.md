@@ -27,15 +27,13 @@ You have been selected as the project manager for the implementation of Dynamics
    - Web Purchases
 3. Create a unified customer profile from ingested data
 
-## Module Introduction
+This lab will take approximately **45** minutes to complete. 
 
 ### Lab pre-requisites:
 Before you can start this exercise, you must have completed Lab 0 to set up your environment.
 
 ### Data Ingestion & Data Unification
 As Project Manager for Contoso Retail, you will create a unified customer profile by ingesting key sources of customer data and following the Map, Match, and Merge process. In this lab, we will ingest data. In the next lab, we will unify the data.
-
-**Approximate Time to Complete:** 45 minutes
 
 ### Familiarize yourself with Customer Insights - Data
 In this task, you will explore the pre-configured Demo environment to familiarize yourself with moving around in the Customer Insights – Data application.
