@@ -12,6 +12,8 @@ This appendix contains step-by-step instructions to provision and configure a Dy
 ### WWL Tenants - Terms of Use
 If you are being provided with a tenant as a part of an instructor-led training delivery. Please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training. Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension. Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
+This lab will take approximately **10** minutes to complete.
+
 ## Exercise 1: Get a Dynamics 365 Customer Insights trial
 ### Step 1: Dynamics 365 Customer Insights trial
 1. In a new browser tab, navigate to https://dynamics.microsoft.com/dynamics-365-free-trial. In the middle of the screen, you will see two buttons: one to see plans and pricing, the other to try for free. Select **Try for free.**
