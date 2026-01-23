@@ -16,6 +16,7 @@ Customers that engage with this email will then be split into two sections: cust
 
 Existing owners who did not click a link will get another email advertising the product. This email will also go out to non-Airpot owners.
 
+This lab will take approximately **30** minutes to complete. 
 
 ### What you’ll need:
 - A computer with a Dynamics 365 Customer Insights - Journeys environment
