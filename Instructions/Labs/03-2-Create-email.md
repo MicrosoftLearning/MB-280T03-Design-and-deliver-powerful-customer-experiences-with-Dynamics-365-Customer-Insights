@@ -12,6 +12,8 @@ lab:
 #### Scenario
 For this campaign, the marketing team plans to do a large blitz around its newest smart coffee machine. They plan to send a three-email series. The first email will promote Contoso’s smart coffee machine. The second email is intended to encourage owners of the regular Airpot to upgrade to the new smart machine. The third email is a reminder about the new product launch. 
 
+This lab will take approximately **45** minutes to complete. 
+
 ### Lab Overview
 This lab comprises three exercises:
 1. In this exercise, you will create an email using an email template.
