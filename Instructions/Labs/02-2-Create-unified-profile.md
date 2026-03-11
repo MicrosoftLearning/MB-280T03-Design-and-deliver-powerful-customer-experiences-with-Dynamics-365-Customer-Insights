@@ -1,6 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.2: Create a unified customer profile'
+  title: 'Lab 2.2: Create a unified customer profile'
+  description: Having ingested the raw data from your data sources into entities, you will now begin the Map, Match, Merge process to create a single Unified Customer Profile by merging data from each customer profile source. To do this, you will first map your ingested entities against a standard model and select the Primary Key for each of your profiled entities. Following the completion of this, you will then create your Match Rule that will be used to match contacts from all customer entities. Finally, running the Merge process will create a single set of unique Customers having matched profiles from all customer entities using your match rules. Your objective is to find out how many unique customer profiles Contoso Retail has across various data sources.
+  duration: 118 minutes
+  level: 100
+  islab: true
 ---
 
 # Lab 2.2: Create a unified customer profile
