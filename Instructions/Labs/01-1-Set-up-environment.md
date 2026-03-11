@@ -1,6 +1,13 @@
 ---
 lab:
-    title: 'Lab 0: Set up environment'
+  title: 'Lab 0: Set up environment'
+  description: This appendix contains step-by-step instructions to provision and configure
+    a Dynamics 365 Customer Insights environment, including prerequisites.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 # Lab 0: Set up environment
