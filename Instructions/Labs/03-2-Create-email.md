@@ -1,6 +1,14 @@
 ---
 lab:
-    title: 'Lab 3.2: Create an email'
+  title: 'Lab 3.2: Create an email'
+  description: For this campaign, the marketing team plans to do a large blitz around
+    its newest smart coffee machine. They plan to send a three-email series. The first
+    email will promote Contoso’s smart coffee machine. The second email is intended
+    to encourage owners of the regular Airpot to upgrade to the new smart machine.
+    The third email is a reminder about the new product launch.
+  duration: 158 minutes
+  level: 100
+  islab: true
 ---
 
 # Learning Path 3: Manage customers and assets in Dynamics 365 Customer Insights - Journeys
