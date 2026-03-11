@@ -1,6 +1,15 @@
 ---
 lab:
-    title: 'Lab 3.1: Upload assets'
+  title: 'Lab 3.1: Upload assets'
+  description: Contoso Coffee sells industrial-grade and personal coffee marchines
+    to both coffee business owners who use Contoso coffee machines in their individual
+    shops; businesses who have Contoso coffee machines in their corporate offices;
+    and individual customers who use Contoso Coffee machines in their homes. This
+    year, the company is releasing a brand new product called the Airpot XL Smart
+    Coffee Machine. They plan to market this new product to both business and individuals.
+  duration: 90 minutes
+  level: 100
+  islab: true
 ---
 
 # Module 3: Manage customers and assets in Dynamics 365 Customer Insights - Journeys
