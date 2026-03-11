@@ -1,6 +1,16 @@
 ---
 lab:
-    title: 'Lab 2.1: Ingest a dataset'
+  title: 'Lab 2.1: Ingest a dataset'
+  description: Contoso Coffee produces high-quality coffee and coffee machines, which
+    they retail through channels including new Contoso Retail Stores in premium locations,
+    premium food resellers, and the Contoso Coffee Web Site. Contoso plans to further
+    expand their offerings with Contoso Cafes and a new Connected Coffee Machine which
+    can trigger refill orders and alert Contoso Service about any issues. This new
+    offering will help them to build direct relationships with their customers and
+    learn more about how customers consume their products.
+  duration: 130 minutes
+  level: 300
+  islab: true
 ---
 
 # Module 2: Ingest data into Dynamics 365 Customer Insights - Data
