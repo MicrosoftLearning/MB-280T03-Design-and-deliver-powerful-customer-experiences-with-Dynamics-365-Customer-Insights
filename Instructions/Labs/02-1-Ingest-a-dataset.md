@@ -1,6 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.1: Ingest a dataset'
+  title: 'Lab 2.1: Ingest a dataset'
+  description: As Project Manager for Contoso Retail, you will create a unified customer profile by ingesting key sources of customer data and following the Map, Match, and Merge process. In this lab, we will ingest data. In the next lab, we will unify the data.
+  duration: 130 minutes
+  level: 300
+  islab: true
 ---
 
 # Module 2: Ingest data into Dynamics 365 Customer Insights - Data
