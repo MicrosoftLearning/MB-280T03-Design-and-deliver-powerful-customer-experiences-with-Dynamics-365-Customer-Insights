@@ -2,7 +2,7 @@
 lab:
   title: 'Lab 3.2: Create an email'
   description: This lab will take approximately 45 minutes to complete.
-  duration: 158 minutes
+  duration: 45 minutes
   level: 100
   islab: true
 ---
