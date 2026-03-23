@@ -1,6 +1,10 @@
 ---
 lab:
-    title: 'Lab 4.1: Create a trigger-based journey'
+  title: 'Lab 4.1: Create a trigger-based journey'
+  description: Now that we have created our 3 emails, it is time to create a journey to send the emails to our customers. We will send our first email to our customers to let them know about the upcoming Airpot Smart Machine Coffee Maker.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Learning Path 4: Create journeys

@@ -1,6 +1,10 @@
 ---
 lab:
-    title: 'Lab 3.2: Create an email'
+  title: 'Lab 3.2: Create an email'
+  description: This lab will take approximately 45 minutes to complete.
+  duration: 45 minutes
+  level: 100
+  islab: true
 ---
 
 # Learning Path 3: Manage customers and assets in Dynamics 365 Customer Insights - Journeys

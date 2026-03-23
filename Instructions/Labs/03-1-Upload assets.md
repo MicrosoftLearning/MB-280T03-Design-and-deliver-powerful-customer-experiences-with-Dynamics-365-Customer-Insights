@@ -1,6 +1,10 @@
 ---
 lab:
-    title: 'Lab 3.1: Upload assets'
+  title: 'Lab 3.1: Upload assets'
+  description: To get started, the Marketing Coordinator needs to upload the digital assets that will be used in the campaign. They also need to upload any new sales contacts the company has acquired recently and update details for existing contacts and accounts.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Module 3: Manage customers and assets in Dynamics 365 Customer Insights - Journeys
