@@ -30,6 +30,6 @@ This lab will take approximately **10** minutes to complete.
 6. Sign in with the **MOD administrator** credentials.
 7. If prompted to stay signed in, select yes.
     > **Note:** If prompted to provide additional information, enter `0123456789` in the **Phone number** field and enter any value in the **Job title** field, then select **Submit**.
-9. On the welcome screen, select **Start Customer Insights - Data**. The Customer Insights - Data model-driven app will launch in a new tab. You now have both a Customer Insights - Journeys and a Customer Insights - Data trial environment.
-10. Enter *United States* for Country/region. Select **Continue.**
-6. Select **Start trial** from the notification banner. Wait for the trial to set up - it may take a few minutes. (If you get a pop-up that says *Getting started*, select **Not now.**)
+8. On the welcome screen, select **Start Customer Insights - Data**. The Customer Insights - Data model-driven app will launch in a new tab. You now have both a Customer Insights - Journeys and a Customer Insights - Data trial environment.
+9. Enter *United States* for Country/region and then select **Continue.**
+10. Select **Start trial** from the notification banner. Wait for the trial to set up - it may take a few minutes. (If you get a pop-up that says *Getting started*, select **Not now.**)
