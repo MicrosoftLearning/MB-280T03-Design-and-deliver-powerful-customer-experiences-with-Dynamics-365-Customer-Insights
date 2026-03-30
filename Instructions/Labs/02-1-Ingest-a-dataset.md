@@ -7,6 +7,8 @@ lab:
   islab: true
 ---
 
+# Lab 2.1: Ingest a dataset
+
 # Module 2: Ingest data into Dynamics 365 Customer Insights - Data
 
 ## Lab Scenario: Contoso Coffee
