@@ -44,11 +44,11 @@ As Project Manager for Contoso Retail, you will create a unified customer profil
 ### Familiarize yourself with Customer Insights - Data
 In this task, you will explore the pre-configured Demo environment to familiarize yourself with moving around in the Customer Insights – Data application.
 1. Sign in to Customer Insights - Data at https://home.ci.ai.dynamics.com if you are not already signed in.
-2. In the Environment selector in the top right-hand corner, confirm **Marketing Trial** is selected.
+2. In the Environment selector in the top right-hand corner, confirm that **Marketing Trial** is selected.
 3. Explore the left-hand menu options to familiarize yourself with the navigation:
    - **Home:** Home Page
    - **Customers:** View cards for unified Customer Profiles (you won't be able to view this yet - we need to ingest and unify our data first)
-   - **Data > Data sources:** Ingest siloed demographic, transactional, or behavioral data. Map, match, and merge into a Unified Customer Profile. View your entities and define activity types and their relationships to your customers.
+   - **Data > Data sources:** Ingest siloed demographic, transactional, or behavioral data. Map, match, and merge data into a unified customer profile. View your entities and define activity types and their relationships to your customers.
    - **Data > Enrichment:** Go beyond your unified profile and enrich customer profiles with Microsoft Proprietary Data. Unlock data on affinities for hundreds of brands and dozens of interest-categories. These affinities are extracted for profiles that might be like your customers.
    - **Insights > Segments, Measures & Predictions:** View segments, configure measures, and use out-of-the-box prediction models (or build your own). (You won't be able to view this section yet.)
    - **Settings:** Administer Roles, Permissions, APIs, and Export Destinations for Customer Segments.
@@ -57,7 +57,7 @@ In this task, you will explore the pre-configured Demo environment to familiariz
 In this lab, you will become familiar with ingesting data from multiple sources. As Project Manager for Contoso Retail, you have already identified that key sources of data include eCommerce Customers, Online Purchases, in-store Point of Sales Purchases, and data from the Contoso Retail Loyalty Card scheme.
 
 ### Task 1 - Ingest Customer Data from eCommerce Platform
-1. Sign in to Customer Insights at http://home.ci.ai.dynamics.com and verify **Marketing Trial** is selected in the drop-down menu in the top right-hand corner.
+1. Sign in to Customer Insights at http://home.ci.ai.dynamics.com and confirm **Marketing Trial** is selected in the environment selector in the top-right corner.
 2. In Customer Insights, expand **Data** on the left navigation menu and select **Data sources.**
 3. Select **+Add a data source**. View the available methods of ingesting data. For this lab, choose Microsoft Power Query, name the source *eCommerce*, then select **Next.**
 4. You will be presented with a view of Power Query data sources that Customer Insights is able to ingest. Take note of the connector types available. Select the **Text/CSV** connector.
@@ -68,7 +68,7 @@ In this lab, you will become familiar with ingesting data from multiple sources.
    - **DateOfBirth:** Date
    - **CreatedOn:** Date
    - **Income:** Currency
-9. Verify the Name field on the Query settings pane is set to Contacts. Select **Next**. Select **Save.**
+9. Verify the Name field on the Query settings pane is set to Contacts. Select **Next** and then select **Save.**
    - Congratulations. You have now successfully created your first data source with a data set! We'll continue importing the next data set in the next task.
 
 ## Task 2 - Ingest Online Purchase Data
