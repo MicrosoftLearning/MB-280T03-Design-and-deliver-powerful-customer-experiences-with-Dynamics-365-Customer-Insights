@@ -61,7 +61,7 @@ In this lab, you will become familiar with ingesting data from multiple sources.
 2. In Customer Insights, expand **Data** on the left navigation menu and select **Data sources.**
 3. Select **+Add a data source**. View the available methods of ingesting data. For this lab, choose Microsoft Power Query, name the source *eCommerce*, then select **Next.**
 4. You will be presented with a view of Power Query data sources that Customer Insights is able to ingest. Take note of the connector types available. Select the **Text/CSV** connector.
-5. Enter https://aka.ms/CI-ILT/Contacts for File path or URL and select **Next.** It may take a few moments for the data to upload.
+5. Enter `https://aka.ms/CI-ILT/Contacts` for **File path or URL** and select **Next.** It may take a few moments for the data to upload.
 6. You should now see the data from the source tabulated. Select **Transform data** to configure the data types and formats for the data you ingest.
 7. You will notice that the column heading has appeared in the first row of the data. To correct this, either select **Transform > Use first row as headers** from the Home tab or select the **Transform** tab and then **Use first row as headers.**
 8. Because we have ingested data from a Text/CSV source, all columns are defaulted to a 'Text' Data Type. To successfully ingest and model the data, we can set the data type for non-text columns. To change the data type, select the ABC icon on each column heading. Update the data type for these columns:
@@ -81,7 +81,7 @@ In this task, we will ingest Online Purchase data, representing purchases made v
     > If your data is still refreshing, you will need to wait for it to finish before editing. You can skip directly to Task 3, and then return to Task 2 after you have completed Tasks 3-5.
 3. You should be presented with the Power Query view of the eCommerce Contacts data that you ingested in Task 1. On the **Home** tab, select **Get data.**
 4. You will be presented with a view of data source connectors that Customer Insights is able to ingest. Select the **Text/CSV Connector.**
-5. Enter https://aka.ms/CI-ILT/OnlinePurchases for File path or URL and select **Next**,then select **Create.**
+5. Enter `https://aka.ms/CI-ILT/OnlinePurchases` for **File path or URL** and select **Next**, then select **Create.**
 6. As before, select **Transform**, then **Use first row as headers.**
 7. Update the data types for the following columns:
    - **PurchasedOn:** Date
@@ -92,7 +92,7 @@ In this task, we will ingest Online Purchase data, representing purchases made v
 1. In Customer Insights, expand **Data** on the left menu and select **Data sources.**
 2. Select **+Add a Data Source** and choose **Microsoft Power Query** as the import method. Name the source *Loyalty*, then select **Next.**
 3. Select the **Text/CSV connector.**
-4. Enter https://aka.ms/CI-ILT/LoyaltySchemeCustomers for File path or URL, select **Next** and then select **Transform data.**
+4. Enter `https://aka.ms/CI-ILT/LoyaltySchemeCustomers` for **File path or URL** and select **Next**, then select **Transform data.**
 5. As before, select Transform, then Use first row as headers.
 6. Update the data type for these columns:
    - **DateOfBirth:** Date
@@ -105,7 +105,7 @@ In this task, we will ingest Online Purchase data, representing purchases made v
 1. In Customer Insights, expand **Data** on the left navigation menu and select **Data sources.**
 2. Select **+ Add a data source**, choose **Microsoft Power Query** and name the source *PoS*, then select **Next.**
 3. Select the **Text/CSV connector.**
-4. Enter https://aka.ms/CI-ILT/POSPurchases for File path or URL. Select **Next** and then select **Transform data.**
+4. Enter `https://aka.ms/CI-ILT/POSPurchases` for **File path or URL** and select **Next**,then select **Transform data.**
 5. As before, select **Transform**, then **Use first row as headers.**
 6. Update the data type for these columns:
    - **PurchasedOn:** Date
@@ -118,7 +118,7 @@ In this task, we will ingest Online Purchase data, representing purchases made v
 1. In Customer Insights, expand **Data** on the left navigation menu and select **Data sources.**
 2. Select **+ Add a data source**. Choose **Microsoft Power Query** and name the source *Website,* then select **Next.**
 3. Select the **Text/CSV connector.**
-4. Enter https://aka.ms/CI-ILT/WebReviews for File path or URL. Select **Next** and then select **Transform data.**
+4. Enter `https://aka.ms/CI-ILT/WebReviews` for **File path or URL** and select **Next**, then select **Transform data.**
 5. As before, select **Transform,** then **Use first row as headers.**
 6. Update the data type for these columns:
    - **ReviewRating:** Whole number
