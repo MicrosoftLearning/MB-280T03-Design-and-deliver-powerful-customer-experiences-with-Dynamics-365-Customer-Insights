@@ -75,11 +75,13 @@ In this lab, you will become familiar with ingesting data from multiple sources.
 In this task, we will ingest Online Purchase data, representing purchases made via the Contoso Coffee website.
 
 1. In Customer Insights, expand **Data** on the left menu and select **Data sources.**
-2. Under *Managed by me (1)*, select the **eCommerce** data set and select **Edit**. Select **Next.**
-   - **Note:** If your data is still refreshing, you will need to wait for it to finish before editing. You can skip directly to Task 3, and then return to Task 2 after you have completed Tasks 3-5.
+2. Under **Managed by me (1)**, select the **eCommerce** data source 
+   and select **Edit**, then select **Next**.
+    > [!NOTE]
+    > If your data is still refreshing, you will need to wait for it to finish before editing. You can skip directly to Task 3, and then return to Task 2 after you have completed Tasks 3-5.
 3. You should be presented with the Power Query view of the eCommerce Contacts data that you ingested in Task 1. On the **Home** tab, select **Get data.**
 4. You will be presented with a view of data source connectors that Customer Insights is able to ingest. Select the **Text/CSV Connector.**
-5. Enter https://aka.ms/CI-ILT/OnlinePurchases for File path or URL and select **Next**. Select **Create.**
+5. Enter https://aka.ms/CI-ILT/OnlinePurchases for File path or URL and select **Next**,then select **Create.**
 6. As before, select **Transform**, then **Use first row as headers.**
 7. Update the data types for the following columns:
    - **PurchasedOn:** Date
@@ -109,7 +111,7 @@ In this task, we will ingest Online Purchase data, representing purchases made v
    - **PurchasedOn:** Date
    - **TotalPrice:** Currency
    - **RewardPointsAdded:** Whole number
-7. In the **Name** field on the Query settings pane, rename the query to *Purchases.* Select **Next.**
+7. In the **Name** field on the Query settings pane, rename the query to *Purchases* and then select **Next.**
 8. On the data refresh screen, select **Save.**
 
 ## Task 5 - Ingest Customer Data from Website Reviews
