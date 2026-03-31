@@ -26,7 +26,7 @@ This lab will take approximately **30** minutes to complete.
    - Contacts (eCommerce)
    - Customers (Loyalty)
 6. Select **Apply.**
-7. You will now be presented with the mappings of your source table against standard model types. You can review the types in the table.
+7. Review the mappings of your source tables against the standard model types in the table.
 8. You must choose a 'Primary Key' for each entity you have ingested. The primary key must be a unique reference. For eCommerce Contacts, select **ContactId** as the primary key.
 9. The eCommerce Contacts data contains a column named **Email Subscriber** which will be mapped to an incorrect type, Identity.Service.Email, because of the name. Open the drop-down for this column and select the empty option (nothing/blank). If we do not do this, then the default system behavior is to merge this field with the Email field which we do not want.
 10. Select **Loyalty Customers** under Tables and set **LoyaltyId** as the primary key.
@@ -48,7 +48,7 @@ In this task, you will create a simple rule used to match records together. Rule
    - Leave the Normalize drop-down blank.
    - Set the Precision Level to **Basic** using the drop-down field.
    - Set the Precision Value to **High** using the slider.
-3. Enter the name **FullName, Email** for the rule.
+3. Enter `FullName, Email` for the rule´s **Name**.
 4. Add a second condition for email address by selecting **+ Add** and selecting **Add condition.**
    - For the Contacts: eCommerce table, select the **EMail** field.
    - For the Customers: Loyalty table, select the **EMail** field.
