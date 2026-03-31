@@ -58,33 +58,39 @@ These files will now be available for users to incorporate into their marketing 
 2. From the left navigation, select **Contacts** under the Audience group.
 3. Open the contact **Alva Tharaldsen.**
    - Under Account Name, select **Bellows College**. You will then navigate to the Bellows College account record.
-   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Click on the vertical ellipses at the top of the subgrid, click **Select,** and use the check boxes to select all the contacts in the list at once.
-   - At the top of the Contacts subgrid, select the **vertical ellipses.** Then select **Edit.**
-   - On the Details tab, locate the Personal Notes field. Enter "Airpot owner" in the field. Select **Save.**
-   - Select one of the contacts other than Alva. Navigate to the **Details** tab. Verify “Airpot owner” appears in the Personal Notes field.
+   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Select the vertical ellipses at the top of the subgrid, select **See associated records**, and use the check boxes to select all the contacts in the list at once.
+   - At the top of the **Contact Associated View** command bar, select **Edit.**
+   - On the Details tab, locate the Personal Notes field, enter `Airpot owner` in the field, and then select **Save.**
+   - Select a contact other than **Alva**, navigate to the **Details** tab, and verify that **Airpot owner** appears in the **Personal Notes** field.
 4. Navigate back to the **Contacts** entity under the Audience group. 
 5. Set a filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Filter by.** Choose **Equals** then select **Lucerne Publishing, Southridge Video,** and **Wingtip Toys.** (You can select the accounts by either selecting the name directly from the list, or by starting to type the name and selecting the Account name as it pops up.) Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Filter by**.
+   - Choose **Equals** then select **Lucerne Publishing, Southridge Video,** and **Wingtip Toys.** 
+      > [!TIP]
+      > You can select the accounts by either selecting the name directly from the list, or by starting to type the name and selecting the Account name from the results that appear.
+   - Select **Apply**.   
    - Select all contacts for those 3 accounts. (You can select the checkmark next to Full Name in the view header to select all the contacts at once.)
-   - Select **Edit** in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Bellevue
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
      - Select **Save.**
 6. Change the filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Clear filter**.
-   - Select the **drop-down arrow** again. Select **Filter by**. Select **Adatum Corporation** and **Northwind Traders**. Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Clear filter**.
+   - Select the **Company Name** dropdown again, then select **Filter by**.
+   - Select **Adatum Corporation** and **Northwind Traders**,then select **Apply**.
    - Select all contacts for those 2 accounts.
-   - Select **Edit** in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Redmond
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
      - Select **Save.**
 7. Change the filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Clear filters.**
-   - Select the drop-down arrow again and select **Filter by**. Select **Trey Research**, **The Phone Company,** and **Wide World Importers.** Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Clear filter**.
+   - Select the **Company Name** dropdown again, then select **Filter by**.
+   - Select **Trey Research**, **The Phone Company** and **Wide World Importers**, then select **Apply**.
    - Select all contacts for those 3 accounts.
-   - Select Edit in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Seattle
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
