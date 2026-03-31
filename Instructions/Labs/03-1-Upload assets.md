@@ -44,11 +44,12 @@ This lab is comprised of four tasks:
 1. Download the image files from the resource documents. Extract the files to a folder on your desktop.
 2. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials.
 3. By default, you should be in the Real-time journeys area. Confirm that you are in the Real-time journeys area by opening the area selector in the bottom left of the screen.
-4. In the left menu, navigate to the Assets section. Select **Library**. Select the **+ New** button to open the upload files window.
-5. Select **+ Add files**, locate the image files on your local computer, and select them.
+4. In the left menu, navigate to the Assets section, then select **Library**. Select the **+ New** button to open the upload files window.
+5. Select **+ Add files**, locate the downloaded .zip file on your local computer, extract its contents, and then select the extracted image files.
 6. While the upload window is open, add a logo tag to contosologo.png. (Start by typing logo into the text box below the image file name. After typing *logo*, select what you just typed. A tag will be added below the file name.)
-7. Select **Upload**. Ensure the image files uploaded - a green checkmark with Done will appear for each file. (It may take a few minutes for the files to upload.) Select **Close.**
-8. Using the Filter by keyword search box, enter *con* and press enter. By default, this filter searches by the file name. Verify that contosologo.png appears in the search results.
+7. Select **Upload** and wait for the image files to finish uploading.
+A green checkmark with **Done** will appear for each file. (It may take a few minutes for the files to upload). Select **Close.**
+8. In the **Filter by keyword** search box, enter *con* and press enter. By default, this filter searches by the file name. Verify that **contosologo.png** appears in the search results.
 
 These files will now be available for users to incorporate into their marketing operations.
 
