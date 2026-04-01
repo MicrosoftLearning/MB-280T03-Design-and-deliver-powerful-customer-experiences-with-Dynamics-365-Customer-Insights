@@ -29,20 +29,23 @@ This lab comprises three exercises:
 
 ## Exercise 1: Create a marketing email
 ### Task 1: Create an email from a template
-1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time journeys area.**
+1. Log into Dynamics 365 Customer Insights - Journeys and navigate to the **Real-time journeys area.**
 2. Navigate to **Emails** under the Channels group.
-3. Click **+New** to create a new email.
-4. From the template gallery, scroll down to the **Layouts** section. sSelect **1-2 column** and **Select.**
-5. In the upper left corner, change the name of the email from *Email 1* to *Smart Machine Campaign Email.* (When you hover over **Email 1** in the upper left corner, you should be able to type into that text box.)
+3. Select **+New** to create a new email.
+4. From the template gallery, scroll down to the **Layouts** section. Select **1-2 column**, then select the **Select** button.
+5. In the upper-left corner, select **Email 1** and rename it to `Smart Machine Campaign Email`.
+   > [!TIP]
+   > Hover over **Email 1** to make the text box editable.
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
-   - Type the following in the Subject: “Finally, a coffee machine that gets me."
-   - Select **Contoso Coffee** as the sender (if it is not already). The From name and From email should populate and should be read-only.
-7. Locate the **Toolbox** menu on the far right, which will show up as a series of icons. Hovering over the icons will show you the name of each tab. Select the **Theme** tab, which looks like a paintbrush.
-   - **Note:** The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
-   - Change the **Font family** to: Segoe UI.
-   - Change the **body text color** to: #404040.
-   - Change the **email background** to: #CCCCCC.
-8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to a shade of gray.
+   - Type the following in the Subject: `Finally, a coffee machine that gets me.`
+   - Select **Contoso Coffee**(Default brand sender) as the sender (if it is not already). The **From name** and **From email** fields should populate and should be read-only.
+7. In the **Toolbox** menu on the right, select the **Theme** tab (paintbrush icon), then configuring the following:
+   > [!NOTE]
+   > The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
+   - Expand the **Text styles**, select each style, and change the **Font** to: **Segoe UI**.
+   - Change the **Text style** color to: #404040.
+   - Expand **Background** and set both **Outer background color** and **Inner background color** to #CCCCCC.
+8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to #E6E6E6(gray 1).
 
 ## Task 2: Update images
 In this task, we will update the logo.
