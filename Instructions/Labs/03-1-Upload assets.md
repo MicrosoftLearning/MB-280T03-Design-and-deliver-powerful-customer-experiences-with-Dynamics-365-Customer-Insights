@@ -108,13 +108,14 @@ These files will now be available for users to incorporate into their marketing 
 4. Select **Save & Close.**
 
 ### Exercise 4: Configure the default brand profile
-1. Log into Dynamics 365 Customer Insights - Journeys. Change areas to the **Settings** area.
-2. In the **Customer engagement** group, navigate to **Brand profiles**.
-3. Select the **Default brand profile.**
-4. Navigate to the **Senders** tab. You should see the Default sender record in the sub-grid. 
-5. Select the Social links tab. Fill in the following:
+1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials
+2. In the bottom-left corner, select **Settings** from the Change area.
+3. In the **Customer engagement** group, navigate to **Brand profiles**.
+4. Select the **Default brand profile.**
+5. Navigate to the **Senders** tab. You should see the Default brand sender record in the sub-grid. 
+6. Select the Social links tab, then enter the following:
     - LinkedIn URL: https://www.linkedin.com/company/contoso12345/about/
     - Twitter URL: https://twitter.com/ContosoInc
     - Facebook URL: https://www.facebook.com/Contoso-102137176602590/
-6. Select **Save & Close.**
+7. Select **Save & Close.**
 
