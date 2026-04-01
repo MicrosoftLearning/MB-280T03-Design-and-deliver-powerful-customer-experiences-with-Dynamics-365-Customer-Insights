@@ -37,7 +37,7 @@ This lab comprises three exercises:
    
    > [!TIP]
    > Hover over **Email 1** to make the text box editable.
-   
+
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: `Finally, a coffee machine that gets me.`
    - Select **Contoso Coffee**(Default brand sender) as the sender (if it is not already). The **From name** and **From email** fields should populate and should be read-only.
@@ -64,13 +64,13 @@ In this task, we will update the logo.
 
 ## Task 3: Update a headline using personalization
 In this task, we will update a headline to reflect the recipient contact's first name.
-1. Navigate to the text section below the logo and select it.
-2. Put your cursor at the start of the header text then click **Personalization** in the toolbar at the top of the email. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**
+1. Locate the Preview Text field below the Subject.
+2. Select the **Personalization** icon next to the field, then select **First name** from the dropdown. Ensure **Contact** is selected, then select **Choose.**
 3. Add a comma and a space after {{Firstname}}.
-4. Change the placeholder text to: “We’ve got your coffee breaks covered.”
+4. Select the **Text** block in the designer and change the placeholder text to: “We’ve got your coffee breaks covered.”
 5. Highlight the text, make it bold and change the font size to *26.*
-6. Change “Customize your email...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
-7. Highlight the text and change the font size to *18.*
+6. Change “your email with fonts...” to “The New Airpot XL Intelligent Coffee Machine is like having your own personal barista.”
+7. Select all the text and change the font size to *18.*
 
 ## Task 4: Design the rest of the email
 1. Select the two-column section below the text. Change the Section background color to a shade of blue.
