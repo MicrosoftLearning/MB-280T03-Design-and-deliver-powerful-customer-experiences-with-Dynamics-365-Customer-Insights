@@ -34,31 +34,33 @@ This lab comprises three exercises:
 3. Select **+New** to create a new email.
 4. From the template gallery, scroll down to the **Layouts** section. Select **1-2 column**, then select the **Select** button.
 5. In the upper-left corner, select **Email 1** and rename it to `Smart Machine Campaign Email`.
+   
    > [!TIP]
    > Hover over **Email 1** to make the text box editable.
+   
 6. Select the **From Name/Subject box** in the designer to display the Email header details.
    - Type the following in the Subject: `Finally, a coffee machine that gets me.`
    - Select **Contoso Coffee**(Default brand sender) as the sender (if it is not already). The **From name** and **From email** fields should populate and should be read-only.
 7. In the **Toolbox** menu on the right, select the **Theme** tab (paintbrush icon), then configuring the following:
    > [!NOTE]
    > The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size, and color listed here. You can then update those elements as needed.
-   - Expand the **Text styles**, select each style, and change the **Font** to: **Segoe UI**.
-   - Change the **Text style** color to: #404040.
-   - Expand **Background** and set both **Outer background color** and **Inner background color** to #CCCCCC.
-8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the Section background color to #E6E6E6(gray 1).
+   - Change the **Font family** to: Segoe UI
+   - Change the **Body text color** color to: #404040.
+   - Change the **Email Background** to #CCCCCC.
+8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the **Section background color** to #E6E6E6(gray 1).
 
 ## Task 2: Update images
 In this task, we will update the logo.
 
 1. Select the image in the first section on the designer.
-2. On the right, click the placeholder image. Select **Replace image** then choose **Browse library.**
-3. Select the **Contoso logo** then click **Select.**
-4. Replace the Alt text with *Contoso logo*.
-5. Select the **Link to** to drop down, and then select **URL**. Enter *www.contoso.com.*
-6. In the Size and alignment section, if Auto width is on, use the toggle to turn it off. Enter *150px* for the width. The other dimension will automatically update.
+2. In the right pane, hover over the image and select **Replace**, then select **Browse library**.
+3. Select the **Contoso logo**, then select the **Select** button.
+4. Enter `Contoso logo` for **Alt text** field.
+5. Select the **Link to** to drop down, and then select **URL**. Enter `www.contoso.com`
+6. In the **Size and alignment** section, turn off the **Auto width** toggle, then enter `150px` for the width. The height updates automatically.
 7. Next, we will update the second image in the email. Select the image in the section below the logo.
 8. Select **Replace image** and **Browse library.**
-9. Select the **hero-page.jpg** image. Click **Select.**
+9. Select the **hero-page.jpg** image, then select the **Select** button.
 
 ## Task 3: Update a headline using personalization
 In this task, we will update a headline to reflect the recipient contact's first name.
