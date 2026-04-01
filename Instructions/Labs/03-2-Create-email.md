@@ -98,33 +98,35 @@ In this task, we will update a headline to reflect the recipient contact's first
 ### Exercise 2: Create an email by copying an email
 
 ## Task 1: Create an email to existing customers
-1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
-2. Navigate to **Emails** under the Channels group.
+1. Log into Dynamics 365 Customer Insights - Journeys. In the bottom-left corner, select **Real-time journeys** from the Change area.
+2. Under the Channels group, navigate to **Emails** 
 3. Open the email you created in Task 1.
-4. In the command bar, click the **drop-down arrow** next to Save. Choose **Save as.**
-5. In the Quick Create menu on the right, name the email *Upgrade Airpot Email.*
-6. In the Subject field, enter “Is it time for an upgrade?”
-7. Click **Save and Close**. A pop-up will appear that says *Your changes were saved*. Click **View record** to open the new email. (You can also navigate back to **Emails** and open **Upgrade Airpot Email.**)
-8. On the designer, change the header text to: “{{Firstname}}, coffee your way, at your fingertips.”
-9. Change the copy below the header to: “Your coffee order is as unique as you are. Time to try our new Airpot Smart Coffee Machine.”
-10. Select the next two-column section. Change the Layout from 2 to 1:2.
+4. In the command bar, select the dropdown arrow next to **Save**, then select **Save as**.
+5. In the **Quick Create** pane on the right, set the name to `Upgrade Airpot Email`
+6. In the **Subject** field, enter `Is it time for an upgrade?`
+7. Select **Save and Close**. A pop-up will appear with the message *Your changes were saved*. Select **View record** to open the new email.
+    > [!NOTE]
+    > You can also navigate back to **Emails** and open **Upgrade Airpot Email** directly.
+8. On the designer, select the header text block and replace the text with `{{Firstname}}, coffee your way, at your fingertips.`
+9. Select the text block below the header and replace the text with `Your coffee order is as unique as you are. Time to try our new Airpot Smart Coffee Machine.`
+10. Select the two-column section below. In the **Layout** field, change the layout to **1:2**.
     - In the left column, make the following updates:
       - Remove the text.
       - Remove the button.
     - In the right column, make the following updates:
       - Remove the image.
-      - Change the text to: “Half-caf Americano, or double shot latte? However you choose to fuel your day, Contoso Coffee has you covered.” ‎
-      - Change the font size to 16 and italicize.
+      - Change the text to: `Half-caf Americano, or double shot latte? However you choose to fuel your day, Contoso Coffee has you covered`.
+      - Change the font size to 16 and select **Italic**
 11. Update the button.
     - Select the button.
-    - Change Link to to URL.
+    - Select **URL** for **Link to** field
     - Enter https://dynamics.microsoft.com/.
-    - Change the Button text to *EXPLORE THE NEW SMART MACHINE.*
-    - Expand **Size and alignment.** Switch Fit to text to **Off.** Change the width to *200px.*
-12. On the toolbar, click **Save.**
-13. Preview the email.
-14. Click **Check content**. Correct any errors if needed.
-15. On the toolbar, click **Ready to send.**
+    - Change the Button text to `EXPLORE THE NEW SMART MACHINE`
+    - Expand **Size and alignment.** toggle **Fit to text** off, then set the width to `200px`.
+12. On the toolbar, select **Save.**
+13. Select **Preview and test** to preview the email.
+14. Select **Check content** and correct any errors if needed.
+15. On the toolbar, select **Ready to send**.
 
 ### Task 2: Create a follow-up campaign email
 1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
