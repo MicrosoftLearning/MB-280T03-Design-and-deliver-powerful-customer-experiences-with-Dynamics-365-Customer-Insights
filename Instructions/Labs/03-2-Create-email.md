@@ -47,7 +47,7 @@ This lab comprises three exercises:
    - Change the **Font family** to: Segoe UI
    - Change the **Body text color** color to: #404040.
    - Change the **Email Background** to #CCCCCC.
-8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the **Section background color** to #E6E6E6(gray 1).
+8. In the email itself, find the first section and select it. An Edit layout tab will appear. Change the **Section background color** to a shade of gray.
 
 ## Task 2: Update images
 In this task, we will update the logo.
@@ -74,14 +74,16 @@ In this task, we will update a headline to reflect the recipient contact's first
 
 ## Task 4: Design the rest of the email
 1. Select the two-column section below the text. Change the Section background color to a shade of blue.
-2. In the left column, select the Image placeholder and click **Replace image.** Select **Browse library** and select **coffee-machine.jpg.** Click **Select**.
-3. Replace the Alt text with "Coffee Machine". (If the pane to edit the image doesn't immediately pop up, you can find the image properties as the bottom icon in the **Toolbox** menu.)
-4. In **Link to** field, select **URL.** Enter [https://dynamics.microsoft.com/].
-5. In the Size and alignment section, toggle Auto width **off.** Change the width to *150px* and let the other dimension set automatically.
-6. In the right column under the sub header, select the Image placeholder and click **Replace image.** Select **Browse library** and select **barista.jpg**. Click **Select.**
-7. Replace the Alt text with *Barista.*
-8. In Link to field, select URL. Enter [https://dynamics.microsoft.com/].
-9.  Select the section with the social icons. Change the Section background color to a shade of gray.
+2. In the left column, select the image placeholder, then select **Replace image**. Select **Browse library**, select **coffee-machine.jpg**, then select the **Select** button.
+3. Enter `Coffee Machine` for  **Alt text** field.
+    > [!NOTE]
+    > If the image properties pane does not open automatically, select the image and then select the bottom **image** icon in the **Toolbox** menu on the right.
+4. In the **Link to** field, select **URL**, then enter `https://dynamics.microsoft.com/`
+5. In the **Size and alignment** section, turn off the **Auto width** toggle, then enter `150px` for the width. The height updates automatically.
+6. In the right column under the sub header, select the image placeholder, then select **Replace image**. Select **Browse library**, select **barista.jpg**, then select the **Select** button.
+7. Enter `Barista` for **Alt text** field.
+8. In the **Link to** field, select **URL**, then enter `https://dynamics.microsoft.com/`
+9. Select the section with the social media icons. Change the **Section background color** to a shade of gray.
 10. Select the section with the copyright information. Update the copyright from *2022 Company Inc.* to *2024 Contoso Coffee.*
 11. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email?
 
