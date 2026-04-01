@@ -88,12 +88,12 @@ In this task, we will update a headline to reflect the recipient contact's first
 11. Make any other changes as desired. Feel free to be creative and use any design experience you have. What do you find eye-catching when recieving a marketing email?
 
 ## Task 5: Save and test the email
-16. On the toolbar, select **Save.**
-17. Select **Preview and test.**
-18. Select **Edit sample data**. In the **Preview personalization pane**, enter the first name of a contact you created, then select the contact to watch the personalization change.
-19. Return to the **Preview and test** screen. Preview the email on all screen sizes.
-20. Select the dropdown arrow next to **Check content**, then select **Accessibility checker** to to see if there are any other issues within the email. Mitigate any issues as you see fit.
-21. On the toolbar, click **Ready to send.**
+1. On the toolbar, select **Save.**
+2. Select **Preview and test.**
+3. Select **Edit sample data**. In the **Preview personalization pane**, enter the first name of a contact you created, then select the contact to watch the personalization change.
+4. Return to the **Preview and test** screen. Preview the email on all screen sizes.
+5. Select the dropdown arrow next to **Check content**, then select **Accessibility checker** to to see if there are any other issues within the email. Mitigate any issues as you see fit.
+6. On the toolbar, select **Ready to send.**
 
 ### Exercise 2: Create an email by copying an email
 
