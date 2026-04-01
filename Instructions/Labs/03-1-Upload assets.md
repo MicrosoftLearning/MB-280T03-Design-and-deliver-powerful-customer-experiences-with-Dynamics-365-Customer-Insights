@@ -105,7 +105,7 @@ These files will now be available for users to incorporate into their marketing 
    - Schedule type: Delay (in days).
    - Start delay: 0.
 4. In the **Start time** section, select **01** for Hour. Leave **Minute** blank.
-4. Select **Save & Close.**
+5. Select **Save & Close.**
 
 ### Exercise 4: Configure the default brand profile
 1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials
