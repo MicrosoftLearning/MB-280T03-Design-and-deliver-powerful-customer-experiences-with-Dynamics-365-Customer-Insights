@@ -98,13 +98,13 @@ These files will now be available for users to incorporate into their marketing 
 
 ### Task 3: Create a task template
 1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials.
-2. Under the **Assets** group, navigate to **Task templates**.
-3. Select **+New**.
+2. Under the **Assets** group, navigate to **Templates**.
+3. Select **+New template** > **Task**.
    - Name: Follow up with customer
    - Subject: Upgrade from Airpot to Airpot XL Smart Coffee Machine
    - Schedule type: Delay (in days).
    - Start delay: 0.
-4. In the Start time section, select **01** for Hour. Leave Minute blank.
+4. In the **Start time** section, select **01** for Hour. Leave **Minute** blank.
 4. Select **Save & Close.**
 
 ### Exercise 4: Configure the default brand profile
