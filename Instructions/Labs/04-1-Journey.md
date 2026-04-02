@@ -31,12 +31,12 @@ This lab will take approximately **30** minutes to complete.
 1.  Log into Dynamics 365 Customer Insights - Journeys.
 2.  Navigate to the **Real-time journeys** work area.
 3.  Under **Engagement**, select **Journeys.**
-4.  Click **+ New journey** in the command bar. If you are prompted to use Copilot to create your journey, select **Skip and create from blank.**
-5.  In **Name the journey**, enter *Airpot Smart Machine Launch Campaign.*
+4.  Select **+ New journey** in the command bar. If you are prompted to use Copilot to create your journey, select **Skip and create from blank.**
+5.  In **Name the journey**, enter `Airpot Smart Machine Launch Campaign`
 6.  In **Choose journey type**, select **Trigger-based.**
 7.  In **Choose a trigger**, search for and select **Email Link Clicked.**
 8.  In **Choose an email,** search for and select your **Smart Machine Campaign Email.**
-9.  Click **Create**.
+9.  Select **Create**.
 
 ### Task 2: Configure the journey entry
 1. Navigate to the **journey settings** section, which will be expanded on the right side of the screen. The **Entry** section should be open.
