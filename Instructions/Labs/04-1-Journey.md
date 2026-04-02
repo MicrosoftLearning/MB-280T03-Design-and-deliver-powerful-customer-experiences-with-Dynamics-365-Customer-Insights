@@ -47,7 +47,7 @@ This lab will take approximately **30** minutes to complete.
 6. In **End**, select **tomorrow**.
 
 ### Task 3: Configure the journey goal
-1.  Navigate to the journey settings on the right, which will look like a list of icons. Hover over each icon to see the name of each tab. Select the Goal section.
+1.  Navigate to the journey settings on the right, which will look like a list of icons. Hover over each icon to see the name of each tab. Select the **Goal** section.
 2.  In **The goal of this journey is**, select **Send a general notification**.
 3.  In **The goal is met when**, select **A person clicked on at least one link.**
 4.  In **The number of people needed is**, enter `50` and leave percent selected.
