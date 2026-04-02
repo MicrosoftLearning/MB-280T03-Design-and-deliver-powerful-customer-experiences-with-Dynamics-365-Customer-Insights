@@ -41,16 +41,16 @@ This lab will take approximately **30** minutes to complete.
 ### Task 2: Configure the journey entry
 1. Select the **Trigger** node to open the **Entry** panel  on the right.
 2. Leave **Exclude by segments** blank.
-3. In the **Repeat** section, select Immediately.
+3. In the **Repeat** section, select **Immediately**.
 4. In the **Time zone** section, choose your time zone.
 5. In **Start**, select today. Set the time to 15 minutes from now. (You can type directly into this field.)
-6. In **End**, select tomorrow.
+6. In **End**, select **tomorrow**.
 
 ### Task 3: Configure the journey goal
-1.  Navigate to the journey settings on the right, which will look like a list of icons. Hover over each icon to see the name of each tab. Select the **Goal** section.
-2.  In *The goal of this journey is*, select **Send a general notification.**
-3.  In *The goal is met when,* select **A person clicked on at least one link.**
-4.  In *The number of people needed,* enter *50.* Leave percent selected.
+1.  Navigate to the journey settings on the right, which will look like a list of icons. Hover over each icon to see the name of each tab. Select the Goal section.
+2.  In **The goal of this journey is**, select **Send a general notification**.
+3.  In **The goal is met when**, select **A person clicked on at least one link.**
+4.  In **The number of people needed is**, enter `50` Leave percent selected.
 
 ### Task 4: Add an attribute branch
 1. In the journey designer, click the **plus icon (+)** under the **Email link clicked** tile.
