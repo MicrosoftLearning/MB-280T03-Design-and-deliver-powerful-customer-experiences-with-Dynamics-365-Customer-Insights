@@ -129,18 +129,20 @@ In this task, we will update a headline to reflect the recipient contact's first
 15. On the toolbar, select **Ready to send**.
 
 ### Task 2: Create a follow-up campaign email
-1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the Real-time marketing area.
+1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time journeys** area.
 2. Navigate to **Emails** under the Channels group.
-3. Open the email you created in Task 2.
-4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as.**
+3. Open the email you created in Task 1.
+4. In the command bar, select the dropdown arrow next to **Save**, then select **Save as**
 5. In the Quick Create menu on the right, name the email *Smart Machine Campaign Reminder.*
 6. In the Subject field, enter “Have you seen the news?”
-7. Click **Save and Close.** A pop-up will appear at the upper right that says Your changes were saved. Click **View record** to open the new email. (You can also navigate to the Emails list and open **Smart Machine Campaign Reminder**.)
-8. Change the header text to: “The new Airpot Smart Machine: available this fall!”
+7. Select **Save and Close**. A pop-up will appear with the message *Your changes were saved*. Select **View record** to open the new email.
+    > [!NOTE]
+    > You can also navigate back to **Emails** and open **Smart Machine Campaign     Reminder** directly.
+8. On the designer, select the header text block and replace the text with: `The new Airpot Smart Machine: available this fall!`
 9. Change the copy below the header to: "Our new Airpot Smart Machine is a new way to make coffee. Learn more about the first-of-its-kind coffee machine today."
 10. Remove the two-column section.
-11. On the toolbar, click **Save.**
-12. Preview the email.
-13. Click **Check content**. Correct any errors if needed.
-14. On the toolbar, click **Ready to send.**
+11. On the toolbar, select **Save.**
+12. Select **Preview and test** to preview the email.
+13. Select **Check content** and correct any errors if needed.
+14. On the toolbar, select **Ready to send.**
 
