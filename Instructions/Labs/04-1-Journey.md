@@ -39,12 +39,12 @@ This lab will take approximately **30** minutes to complete.
 9.  Select **Create**.
 
 ### Task 2: Configure the journey entry
-1. Navigate to the **journey settings** section, which will be expanded on the right side of the screen. The **Entry** section should be open.
+1. Select the **Trigger** node to open the **Entry** panel  on the right.
 2. Leave **Exclude by segments** blank.
 3. In the **Repeat** section, select Immediately.
 4. In the **Time zone** section, choose your time zone.
-5. In **Start,** select today. Set the time to 15 minutes from now. (You can type directly into this field.)
-6. In **End,** select tomorrow.
+5. In **Start**, select today. Set the time to 15 minutes from now. (You can type directly into this field.)
+6. In **End**, select tomorrow.
 
 ### Task 3: Configure the journey goal
 1.  Navigate to the journey settings on the right, which will look like a list of icons. Hover over each icon to see the name of each tab. Select the **Goal** section.
