@@ -115,13 +115,13 @@ In this task, we will update a headline to reflect the recipient contact's first
       - Remove the button.
     - In the right column, make the following updates:
       - Remove the image.
-      - Change the text to: `Half-caf Americano, or double shot latte? However you choose to fuel your day, Contoso Coffee has you covered`.
+      - Change the text to: *Half-caf Americano, or double shot latte? However you choose to fuel your day, Contoso Coffee has you covered*.
       - Change the font size to 16 and select **Italic**
 11. Update the button.
     - Select the button.
     - Select **URL** for **Link to** field
     - Enter https://dynamics.microsoft.com/.
-    - Change the Button text to `EXPLORE THE NEW SMART MACHINE`
+    - Change the Button text to *EXPLORE THE NEW SMART MACHINE*
     - Expand **Size and alignment.** toggle **Fit to text** off, then set the width to `200px`.
 12. On the toolbar, select **Save.**
 13. Select **Preview and test** to preview the email.
@@ -138,8 +138,8 @@ In this task, we will update a headline to reflect the recipient contact's first
 7. Select **Save and Close**. A pop-up will appear with the message *Your changes were saved*. Select **View record** to open the new email.
     > [!NOTE]
     > You can also navigate back to **Emails** and open **Smart Machine Campaign     Reminder** directly.
-8. On the designer, select the header text block and replace the text with: `The new Airpot Smart Machine: available this fall!`
-9. Change the copy below the header to: "Our new Airpot Smart Machine is a new way to make coffee. Learn more about the first-of-its-kind coffee machine today."
+8. On the designer, select the header text block and replace the text with: *The new Airpot Smart Machine: available this fall!*
+9. Change the copy below the header to: *Our new Airpot Smart Machine is a new way to make coffee. Learn more about the first-of-its-kind coffee machine today.*
 10. Remove the two-column section.
 11. On the toolbar, select **Save.**
 12. Select **Preview and test** to preview the email.
