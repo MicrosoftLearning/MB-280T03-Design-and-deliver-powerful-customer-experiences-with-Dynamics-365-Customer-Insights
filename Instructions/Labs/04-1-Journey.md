@@ -55,13 +55,13 @@ This lab will take approximately **30** minutes to complete.
 ### Task 4: Add an attribute branch
 1. In the journey designer, select the **plus icon (+)** under the **Email link clicked** tile.
 2. Select **Attribute branch** from the **Conditions** section.
-3. In **Display name** on the right, enter `Already owns airpot`
+3. In **Display name** on the right, enter *Already owns airpot*
 4. Select **Branch 1**. In Display name, enter *Owns airpot.*
 5. Select **Add condition**
 6. Select **Make condition on attribute**.
 7. In **Choose an attribute**, search for and select **Description (description)** under Contact.
 8. Change the value from **Equals** to **Contains**.
-9. In **Value**, enter `Airpot`.
+9. In **Value**, enter *Airpot*.
 10. Return to the journey designer. Select the **plus icon (+)** under Branch 1.
   - Select **Email**.
   - In **Select email,** choose **Upgrade Airpot Email.**
@@ -70,12 +70,12 @@ This lab will take approximately **30** minutes to complete.
   - In **Choose a branch condition type**, select **Previous message gets an interaction.**
   - Select the **Branch 1** arrow.
   - In **Choose a trigger**, select **Email Link Clicked**
-  - In **What’s the time limit?**, enter `10` and select **minutes**.
+  - In **What’s the time limit?**, enter *10* and select **minutes**.
 12. In the **Yes** path, select the **plus icon (+).**
   - Select **Task** in the Activities section.
   - In **Choose a template**, select **Follow up with customer.**
   - Subject and Assign to will fill automatically.
-  - In **Due after** enter `2`, then select **weeks**.
+  - In **Due after** enter *2*, then select **weeks**.
 13. In the **No** path, below the **Email Link Clicked** inside the **If/then branch**, select the **plus icon (+)**.
   - Select **Send an email**.
   - In **Select email,** choose **Smart Machine Campaign Reminder**.
