@@ -44,11 +44,12 @@ This lab is comprised of four tasks:
 1. Download the image files from the resource documents. Extract the files to a folder on your desktop.
 2. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials.
 3. By default, you should be in the Real-time journeys area. Confirm that you are in the Real-time journeys area by opening the area selector in the bottom left of the screen.
-4. In the left menu, navigate to the Assets section. Select **Library**. Select the **+ New** button to open the upload files window.
-5. Select **+ Add files**, locate the image files on your local computer, and select them.
+4. In the left menu, navigate to the Assets section, then select **Library**. Select the **+ New** button to open the upload files window.
+5. Select **+ Add files**, locate the downloaded .zip file on your local computer, extract its contents, and then select the extracted image files.
 6. While the upload window is open, add a logo tag to contosologo.png. (Start by typing logo into the text box below the image file name. After typing *logo*, select what you just typed. A tag will be added below the file name.)
-7. Select **Upload**. Ensure the image files uploaded - a green checkmark with Done will appear for each file. (It may take a few minutes for the files to upload.) Select **Close.**
-8. Using the Filter by keyword search box, enter *con* and press enter. By default, this filter searches by the file name. Verify that contosologo.png appears in the search results.
+7. Select **Upload** and wait for the image files to finish uploading.
+A green checkmark with **Done** will appear for each file. (It may take a few minutes for the files to upload). Select **Close.**
+8. In the **Filter by keyword** search box, enter *con* and press enter. By default, this filter searches by the file name. Verify that **contosologo.png** appears in the search results.
 
 These files will now be available for users to incorporate into their marketing operations.
 
@@ -57,33 +58,39 @@ These files will now be available for users to incorporate into their marketing 
 2. From the left navigation, select **Contacts** under the Audience group.
 3. Open the contact **Alva Tharaldsen.**
    - Under Account Name, select **Bellows College**. You will then navigate to the Bellows College account record.
-   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Click on the vertical ellipses at the top of the subgrid, click **Select,** and use the check boxes to select all the contacts in the list at once.
-   - At the top of the Contacts subgrid, select the **vertical ellipses.** Then select **Edit.**
-   - On the Details tab, locate the Personal Notes field. Enter "Airpot owner" in the field. Select **Save.**
-   - Select one of the contacts other than Alva. Navigate to the **Details** tab. Verify “Airpot owner” appears in the Personal Notes field.
+   - Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Select the vertical ellipses at the top of the subgrid, select **See associated records**, and use the check boxes to select all the contacts in the list at once.
+   - At the top of the **Contact Associated View** command bar, select **Edit.**
+   - On the Details tab, locate the Personal Notes field, enter `Airpot owner` in the field, and then select **Save.**
+   - Select a contact other than **Alva**, navigate to the **Details** tab, and verify that **Airpot owner** appears in the **Personal Notes** field.
 4. Navigate back to the **Contacts** entity under the Audience group. 
 5. Set a filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Filter by.** Choose **Equals** then select **Lucerne Publishing, Southridge Video,** and **Wingtip Toys.** (You can select the accounts by either selecting the name directly from the list, or by starting to type the name and selecting the Account name as it pops up.) Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Filter by**.
+   - Choose **Equals** then select **Lucerne Publishing, Southridge Video,** and **Wingtip Toys.** 
+      > [!TIP]
+      > You can select the accounts by either selecting the name directly from the list, or by starting to type the name and selecting the Account name from the results that appear.
+   - Select **Apply**.   
    - Select all contacts for those 3 accounts. (You can select the checkmark next to Full Name in the view header to select all the contacts at once.)
-   - Select **Edit** in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Bellevue
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
      - Select **Save.**
 6. Change the filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Clear filter**.
-   - Select the **drop-down arrow** again. Select **Filter by**. Select **Adatum Corporation** and **Northwind Traders**. Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Clear filter**.
+   - Select the **Company Name** dropdown again, then select **Filter by**.
+   - Select **Adatum Corporation** and **Northwind Traders**,then select **Apply**.
    - Select all contacts for those 2 accounts.
-   - Select **Edit** in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Redmond
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
      - Select **Save.**
 7. Change the filter on Company Name:
-   - Select the **drop-down arrow** next to Company Name. Select **Clear filters.**
-   - Select the drop-down arrow again and select **Filter by**. Select **Trey Research**, **The Phone Company,** and **Wide World Importers.** Select **Apply.**
+   - Select the **Company Name** dropdown, then select **Clear filter**.
+   - Select the **Company Name** dropdown again, then select **Filter by**.
+   - Select **Trey Research**, **The Phone Company** and **Wide World Importers**, then select **Apply**.
    - Select all contacts for those 3 accounts.
-   - Select Edit in the command bar. Enter the following:
+   - Select **Edit** in the command bar, then enter the following:
      - **Address 1: City:** Seattle
      - **Address 1: State/Province:** Washington
      - **Details > Personal Notes:** Airpot owner
@@ -91,23 +98,24 @@ These files will now be available for users to incorporate into their marketing 
 
 ### Task 3: Create a task template
 1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials.
-2. Under the **Assets** group, navigate to **Task templates**.
-3. Select **+New**.
+2. Under the **Assets** group, navigate to **Templates**.
+3. Select **+New template** > **Task**.
    - Name: Follow up with customer
    - Subject: Upgrade from Airpot to Airpot XL Smart Coffee Machine
    - Schedule type: Delay (in days).
    - Start delay: 0.
-4. In the Start time section, select **01** for Hour. Leave Minute blank.
-4. Select **Save & Close.**
+4. In the **Start time** section, select **01** for Hour. Leave **Minute** blank.
+5. Select **Save & Close.**
 
 ### Exercise 4: Configure the default brand profile
-1. Log into Dynamics 365 Customer Insights - Journeys. Change areas to the **Settings** area.
-2. In the **Customer engagement** group, navigate to **Brand profiles**.
-3. Select the **Default brand profile.**
-4. Navigate to the **Senders** tab. You should see the Default sender record in the sub-grid. 
-5. Select the Social links tab. Fill in the following:
+1. Log into Dynamics 365 Customer Insights - Journeys with your admin credentials
+2. In the bottom-left corner, select **Settings** from the Change area.
+3. In the **Customer engagement** group, navigate to **Brand profiles**.
+4. Select the **Default brand profile.**
+5. Navigate to the **Senders** tab. You should see the Default brand sender record in the sub-grid. 
+6. Select the Social links tab, then enter the following:
     - LinkedIn URL: https://www.linkedin.com/company/contoso12345/about/
     - Twitter URL: https://twitter.com/ContosoInc
     - Facebook URL: https://www.facebook.com/Contoso-102137176602590/
-6. Select **Save & Close.**
+7. Select **Save & Close.**
 
