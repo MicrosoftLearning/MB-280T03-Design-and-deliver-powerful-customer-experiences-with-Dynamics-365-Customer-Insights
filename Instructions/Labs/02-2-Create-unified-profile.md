@@ -26,7 +26,7 @@ This lab will take approximately **30** minutes to complete.
    - Contacts (eCommerce)
    - Customers (Loyalty)
 6. Select **Apply.**
-7. You will now be presented with the mappings of your source table against standard model types. You can review the types in the table.
+7. Review the mappings of your source tables against the standard model types in the table.
 8. You must choose a 'Primary Key' for each entity you have ingested. The primary key must be a unique reference. For eCommerce Contacts, select **ContactId** as the primary key.
 9. The eCommerce Contacts data contains a column named **Email Subscriber** which will be mapped to an incorrect type, Identity.Service.Email, because of the name. Open the drop-down for this column and select the empty option (nothing/blank). If we do not do this, then the default system behavior is to merge this field with the Email field which we do not want.
 10. Select **Loyalty Customers** under Tables and set **LoyaltyId** as the primary key.
@@ -48,7 +48,7 @@ In this task, you will create a simple rule used to match records together. Rule
    - Leave the Normalize drop-down blank.
    - Set the Precision Level to **Basic** using the drop-down field.
    - Set the Precision Value to **High** using the slider.
-3. Enter the name **FullName, Email** for the rule.
+3. Enter `FullName, Email` for the rule´s **Name**.
 4. Add a second condition for email address by selecting **+ Add** and selecting **Add condition.**
    - For the Contacts: eCommerce table, select the **EMail** field.
    - For the Customers: Loyalty table, select the **EMail** field.
@@ -69,14 +69,14 @@ In Task 3, we used High Precision in the match-rule against Full Name. In this t
 - Low fits cases where the opposite is true, such as a marketing campaign.
 - The Medium level serves as a middle-ground option.
 
-1. In Customer Insights, expand **Data** in the left-hand navigation menu. Select **Unify.**
+1. In Customer Insights, expand **Data** in the left-hand navigation menu, and then select **Unify.**
 2. Under Matching rules, select **Edit.**
 3. Expand the **Customers: Loyalty** rule and select the **Edit** button to open the **FullName, Email** conditions pane.
-4. Under Condition 1, select **Preview** and note the values. Move the Precision slider for Condition 1 from **High** to **Low**. Select **Done.**
+4. Under Condition 1, select **Preview** and note the values.Then move the Precision slider for Condition 1 from **High** to **Low** and select **Done.**
 5. Select **Next**, select **Next**, and select **Create customer profiles.**
 6. Wait for the matching process to complete.
 7. Once the match process has completed, click **Edit** on matching rules. Select the **vertical dots menu** next to the **FullName, Email** rule and select **Preview** to see the match results and the Score. This shows how Customer Insights matched the data tables based on the rules you have defined. Some profiles have been created with a lower confidence of matching.
-8. Close the preview and select Edit. Select the Preview button below Condition 1. Here you can preview the number of Unmatched and Matched records for the FullName condition.
+8. Close the preview and select **Edit**. Select the **Preview** button below Condition 1. Here you can preview the number of Unmatched and Matched records for the FullName condition.
 9. Select **Preview data** under Unmatched or Matched to preview the matches. Notice how the high scores have exact spelling but can match even if the name format (First Name, Last Name / Last Name, First Name) is different. With the low scores, notice how matches are made even when names are not spelled identically.
 10. Close the Criteria preview pane and select **Cancel.**
 
@@ -85,12 +85,12 @@ Confer with the class: How many Unique Customer Profiles do you have now?
 ### Task 5 - Unifying customer fields
 This is the last phase in the data unification process. The purpose is to reconcile conflicting data and to define the attributes that will be used in the unified customer profile. A merged attribute is an attribute that exists in more than one data source and represents the same piece of data. For example, we may have ‘Email Address' in both eCommerce Customers and Loyalty Customer data sources. Customer Insights will attempt to identify the attributes to be merged to the standard data types we defined in the Source fields step.
 
-1. In Customer Insights, expand **Data** in the left-hand navigation menu. Select **Unify.**
+1. In Customer Insights, expand **Data** in the left-hand navigation menu, and then select **Unify.**
 2. Under Unified data view, select **Edit.**
 3. Under Customer columns, note how attributes from different data sources that are of the same type (e.g. FirstName) have been merged.
-4. Expand the **FirstName** merged attribute. You should see that the FirstName attribute in eCommerce: Contacts is ranked number 1. This denotes that where you have a matching customer profile in LoyaltyScheme and eCommerce, the FirstName taken from eCommerce: Contacts will be the primary.
-9. Select **Next** and select **Create customer profiles.**
-10. Wait for the process to finish.
+4. Expand the **FirstName** merged attribute. You should see that the FirstName attribute from eCommerce: Contacts is ranked number 1. This denotes that where you have a matching customer profile in LoyaltyScheme and eCommerce, the FirstName taken from eCommerce: Contacts will be the primary.
+5. Select **Next** and select **Create customer profiles.**
+6. Wait for the process to finish.
 
 Congratulations! You have successfully ingested, mapped, matched, and unified data from multiple sources within Customer Insights to create a Unified Customer Profile that can be used to gain insights into your whole customer base.
 
@@ -106,7 +106,7 @@ In this exercise, we will set up Search and Filter criteria to enable Customer I
 
 ### Task 2 - Search for a Customer Record
 1. In Customer Insights, select **Customers** from the left navigation menu. You should be presented with a set of customer cards, representing the Unified Profiles. You can expand cards to see more about the customer or sort the cards by various fields. Try this by selecting **Expand cards** and **Sort by** on the toolbar.
-2. You can use Search customers to search for text attributes relating to unified customer profiles. (E.g. Searching '24502' will search against all text attributes and return matches and partial matches.)
+2. Use Search customers to search for text attributes relating to unified customer profiles. (E.g. Searching '24502' will search against all text attributes and return matches and partial matches.)
 
 Use the search bar to answer the following questions:
 - What is Brian Gobble's Date of Birth? (Search for Brian Gobble)
